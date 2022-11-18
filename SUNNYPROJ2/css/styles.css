@@ -213,3 +213,10 @@ Hero-section
   text-transform: uppercase;
   text-align: center;
 }
+
+@media(min-width:768px){
+  .header-title{
+    font-size: 7rem;
+    margin-top: 12rem;
+  }
+}
