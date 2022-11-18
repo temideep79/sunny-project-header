@@ -1,0 +1,227 @@
+.container {
+  max-width: 1190px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  margin: 1rem;
+  color: #333;
+}
+
+/* backgrounds & colored buttons */
+.bg-primary,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.bg-light,
+.btn-light {
+  background-color: var(--light-color);
+  color: #333;
+}
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
+
+/* Text- colors */
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--dark-color);
+}
+
+.text-dark {
+  color: var(--secondary-color);
+}
+
+.text-light {
+  color: var(--light-color);
+}
+
+/*===================
+FontSizes
+ ====================*/
+.fsm {
+  font-size: 2rem;
+}
+
+.fmd {
+  font-size: 2.5rem;
+}
+
+.flg {
+  font-size: 3.5rem;
+}
+
+.fxl {
+  font-size: 4rem;
+}
+/*===================
+Grid&flex
+ ====================*/
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+/*===================
+Grid&flex--ColsRows
+ ====================*/
+.grid-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/*===================
+marginTopBottom
+ ====================*/
+.mg-1 {
+  margin: 1.6rem 2.5;
+}
+
+.mg-2 {
+  margin: 1.5rem 0;
+}
+
+.mg-3 {
+  margin: 3.2rem 0;
+}
+
+.mg-4 {
+  margin: 2.3rem 0;
+}
+
+.mg-5 {
+  margin: 4rem 0;
+}
+
+/*===================
+margin-allSides
+ ====================*/
+.mg-1 {
+  margin: 1.6rem;
+}
+.mg-2 {
+  margin: 1.5rem;
+}
+
+.mg-3 {
+  margin: 3.2rem;
+}
+
+.mg-4 {
+  margin: 2.3rem;
+}
+
+.mg-5 {
+  margin: 4rem;
+}
+
+/*===================
+ paddingTopBottom
+ ====================*/
+
+.pd-1 {
+  padding: 1.6rem;
+}
+
+.pd-2 {
+  padding: 1.5rem;
+}
+
+.pd-3 {
+  padding: 3.2rem;
+}
+
+.pd-4 {
+  padding: 2.3rem;
+}
+
+.pd-5 {
+  padding: 4rem;
+}
+
+/*===================
+ paddingAllsides
+ ====================*/
+
+.Pd1 {
+  padding: 1.6rem;
+}
+
+.Pd2 {
+  padding: 1.5rem;
+}
+
+.Pd3 {
+  padding: 3.2rem;
+}
+
+.Pd4 {
+  padding: 2.3rem;
+}
+
+.Pd5 {
+  padding: 4rem;
+}
+
+.btn {
+  border-radius: 30px;
+
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  background: #fff;
+  border: solid white 1px;
+  text-align: center;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  transform: scaleX(0.98);
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
